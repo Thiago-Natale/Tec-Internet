@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+<title>Titulo</title>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script>
+
+    </script>
 </head>
+
 <body>
-    
+    <from method="post" action="login.php">
+        CPF: <input  type="text" name="cpf" id="cpf"> <br>
+        SENHA: <input type="password" name="senha" id="senha">
+        <input type="submit" value="Enviar">
+</from>
 </body>
 </html>
