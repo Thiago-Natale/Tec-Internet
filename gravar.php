@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start ();
+echo "Olá ".$_SESSION["nome"];
 
-echo "Olá".$_SESSION["nome"];
 ?>
